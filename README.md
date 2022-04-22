@@ -55,7 +55,7 @@ I'm a full stack web developer, currently working heavily with TypeScript.
 
 #### twitch
 
-🎥 Come hang out when I stream [on Twitch](https://www.twitch.tv/peterboyer_)!
+🎥 Come hang out when I stream [on Twitch](https://www.twitch.tv/peterboyer_/about)!
 
 #### api design tips
 
