@@ -63,4 +63,4 @@ I'm a full stack web developer, currently working heavily with TypeScript!
 
 ---
   
-Enjoy your stay, and please feel free to ask any questions. 🙂
+I hope you enjoy your stay, and please feel free to ask any questions. 😊
