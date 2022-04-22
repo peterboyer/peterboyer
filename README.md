@@ -1,6 +1,6 @@
-### Hi there 👋
+### Hi! 👋
 
-I'm a full stack web developer, currently working heavily with TypeScript!
+I'm a full stack web developer, currently working heavily with TypeScript.
 
 ---
 
