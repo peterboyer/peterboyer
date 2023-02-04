@@ -1,66 +1,24 @@
-### Hi! 👋
+<pre>
+peter boyer
+australia/sydney
+full stack software engineer
+typescript | rust | godot
 
-I'm a full stack web developer, currently working heavily with TypeScript.
+* [<a href="https://github.com/peterboyer/esresult">/esresult</a>] typescript "result" types/utils, inspired by rust
+* [<a href="https://github.com/peterboyer/restful-api-design-tips">/restful-api-design-tips</a>] rest(ful) api design tips, feedback/issues/prs welcome
+* [<a href="https://github.com/peterboyer/dotfiles">/dotfiles</a>] configs for zsh | nvim | tmux | archlinux (w/ <a href="https://github.com/peterboyer/dotfiles/blob/main/_arch/install.sh">install.sh</a>)
 
----
+* [<a href="https://www.twitch.tv/peterboyer_">:twitch</a>] software/gamedev/ama streams
+* [<a href="https://twitter.com/peterboyer_">:twitter</a>] periodic software/gamedev comments
 
-#### esresult
-
-🌟 Check out my latest project, [`esresult`](https://github.com/peterboyer/esresult).
-
-- It's an awesome way to handle errors in your TypeScript projects in a type-safe and auto-completable way!
-- Feedback welcome; especially about the structure/readability of the README!
-
-> <details>
-> 
-> <summary><strong>Example</strong> (TypeScript) [Click to expand]</summary>
-> 
-> <br />
-> 
-> Annotate your function (with an success Value, and possible Error types):
->   
-> ```ts
-> import Result from "esresult";
->   
-> function fn(input: string): Result<string, "InputEmpty" | "InputTooShort"> {
->     if (!input)
->         return Result.error("InputEmpty");
->     if (input.length < 10)
->         return Result.error("InputTooShort");
->     return Result(input);
-> }
-> ```
-> 
-> <br />
->                           
-> Safely call your function (and work with a Result object):
-> 
-> ```ts
-> const $ = fn("value");
->   
-> const valueOrDefault = $.or("default"); // string
-> const valueOrUndefined = $.orUndefined(); // string | undefined
-> 
-> $.error?.type // "InputEmpty" | "InputTooShort" | undefined
-> 
-> if ($.error) { return; }
-> const [value] = $; // string (type-narrowed after `return` on error)
-> ```
-> 
-> <br />
->
-> Check out [the README](https://github.com/peterboyer/esresult) to learn more!
->   
-> </details>
-
-#### twitch
-
-🎥 Come hang out when I stream [on Twitch](https://www.twitch.tv/peterboyer_/about)!
-
-#### api design tips
-
-📰 I like design; so much so I wrote [RESTful API Design Tips](https://github.com/peterboyer/restful-api-design-tips) (250+ stars!) Feedback welcome here too!
-
----
-  
-I hope you enjoy your stay, and please feel free to ask any questions. 😊
+* use tabs for indentation (dev accessibility)
+	<a href="https://www.reddit.com/r/javascript/comments/c8drjo/nobody_talks_about_the_real_reason_to_use_tabs/">reddit: Nobody talks about the real reason to use Tabs over Spaces</a>
+	<a href="https://github.com/prettier/prettier/issues/7475/">github: Change useTabs to true by default</a>
+* typescript: use explicit return types (clear intent, faster tsc)
+	<a href="https://twitter.com/jon_dewitt_ts/status/1620988514317004801?s=20&t=Jj2idhGSt4oBpeYOIQ3-uQ">twitter: Here's a quick take on the whole return type thing...</a>
+	<a href="https://twitter.com/ThePrimeagen/status/1620808334562697217?s=20&t=ZM-gCfYAC2_HQu361Ra2aA">twitter: Not specifying a return type is an anti pattern</a>
+* typescript: use `type` unless you _need_ `interface` features (declaration merging)
+	<a href="https://www.youtube.com/watch?v=zM9UPcIyyhQ">youtube: Should you use Types or Interfaces?</a>
+* typescript: avoid enums (only supports string/number, use objects as const)
+	<a href="https://www.youtube.com/watch?v=zM9UPcIyyhQ">youtube: Enums considered harmful</a>
+</pre>
