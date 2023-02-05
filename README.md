@@ -1,9 +1,4 @@
 <pre>
-peter boyer
-australia/sydney
-full stack software engineer
-typescript | rust | godot
-
 * [<a href="https://github.com/peterboyer/esresult">/esresult</a>] typescript "result" types/utils, inspired by rust
 * [<a href="https://github.com/peterboyer/restful-api-design-tips">/restful-api-design-tips</a>] rest(ful) api design tips, feedback/issues/prs welcome
 * [<a href="https://github.com/peterboyer/dotfiles">/dotfiles</a>] configs for zsh | nvim | tmux | archlinux (w/ <a href="https://github.com/peterboyer/dotfiles/blob/main/_arch/install.sh">install.sh</a>)
