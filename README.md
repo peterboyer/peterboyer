@@ -1,8 +1,8 @@
 <pre>
 * [<a href="https://github.com/peterboyer/unenum">/unenum</a>] 0kb, rust-like enums for typescript
-* [<a href="https://github.com/peterboyer/esresult">/esresult</a>] a rust-like result type for typescript (consider <a href="https://github.com/peterboyer/unenum">/unenum</a> instead!)
-* [<a href="https://github.com/peterboyer/restful-api-design-tips">/restful-api-design-tips</a>] compilation of restful design principles
-* [<a href="https://github.com/peterboyer/dotfiles">/dotfiles</a>] configs for zsh | nvim | tmux | etc.
+* [<a href="https://github.com/peterboyer/esresult">/esresult</a>] a rust-like result utility for typescript (consider <a href="https://github.com/peterboyer/unenum">/unenum</a> instead!)
+* [<a href="https://github.com/peterboyer/restful-api-design-tips">/restful-api-design-tips</a>] a working compilation of restful design principles
+* [<a href="https://github.com/peterboyer/dotfiles">/dotfiles</a>] my personal configs for zsh/nvim/tmux/git/etc.
 
 * [<a href="https://www.twitch.tv/peterboyer_">:twitch</a>] software/gamedev/ama streams
 * [<a href="https://twitter.com/peterboyer_">:twitter</a>] periodic software/gamedev comments
