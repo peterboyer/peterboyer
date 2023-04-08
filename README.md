@@ -1,7 +1,8 @@
 <pre>
-* [<a href="https://github.com/peterboyer/esresult">/esresult</a>] typescript "result" types/utils, inspired by rust
-* [<a href="https://github.com/peterboyer/restful-api-design-tips">/restful-api-design-tips</a>] rest(ful) api design tips, feedback/issues/prs welcome
-* [<a href="https://github.com/peterboyer/dotfiles">/dotfiles</a>] configs for zsh | nvim | tmux | archlinux (w/ <a href="https://github.com/peterboyer/dotfiles/blob/main/_arch/install.sh">install.sh</a>)
+* [<a href="https://github.com/peterboyer/unenum">/unenum</a>] 0kb, rust-like enums for typescript
+* [<a href="https://github.com/peterboyer/esresult">/esresult</a>] a rust-like result type for typescript (consider <a href="https://github.com/peterboyer/unenum">/unenum</a> instead!)
+* [<a href="https://github.com/peterboyer/restful-api-design-tips">/restful-api-design-tips</a>] compilation of restful design principles
+* [<a href="https://github.com/peterboyer/dotfiles">/dotfiles</a>] configs for zsh | nvim | tmux | etc.
 
 * [<a href="https://www.twitch.tv/peterboyer_">:twitch</a>] software/gamedev/ama streams
 * [<a href="https://twitter.com/peterboyer_">:twitter</a>] periodic software/gamedev comments
@@ -15,5 +16,5 @@
 * typescript: use `type` unless you _need_ `interface` features (declaration merging)
 	<a href="https://www.youtube.com/watch?v=zM9UPcIyyhQ">youtube: Should you use Types or Interfaces?</a>
 * typescript: avoid enums (only supports string/number, use objects as const)
-	<a href="https://www.youtube.com/watch?v=zM9UPcIyyhQ">youtube: Enums considered harmful</a>
+	<a href="https://www.youtube.com/watch?v=jjMbPt_H3RQ">youtube: Enums considered harmful</a>
 </pre>
