@@ -1,5 +1,5 @@
 - use tabs for indentation (dev accessibility) <sup>[1](https://www.reddit.com/r/javascript/comments/c8drjo/nobody_talks_about_the_real_reason_to_use_tabs/) [2](https://github.com/prettier/prettier/issues/7475/)</sup>
 - typescript: use `type` unless you _need_ `interface` features (e.g. declaration merging) <sup>[1](ttps://www.youtube.com/watch?v=zM9UPcIyyhQ)</sup>
 - typescript: use explicit `function` return types (clear intent, faster tsc, reduced inference) <sup>[1](https://twitter.com/jon_dewitt_ts/status/1620988514317004801?s=20&t=Jj2idhGSt4oBpeYOIQ3-uQ) [2](https://twitter.com/ThePrimeagen/status/1620808334562697217?s=20&t=ZM-gCfYAC2_HQu361Ra2aA)</sup>
-- typescript: avoid `enum` (only supports string/number values; instead, use objects as const, or try [`adt`](https://github.com/peterboyer/adt)) <sup>[1](https://www.youtube.com/watch?v=jjMbPt_H3RQ)</sup>
-- typescript: avoid `throw` (poor control flow; instead, return error objects, or try [`safe`](https://github.com/peterboyer/safe))
+- typescript: avoid `enum` (only supports string/number values; instead, use objects as const, or try [`pb.adt`](https://github.com/peterboyer/pb.adt)) <sup>[1](https://www.youtube.com/watch?v=jjMbPt_H3RQ)</sup>
+- typescript: avoid `throw` (poor control flow; instead, return error objects, or try [`pb.safe`](https://github.com/peterboyer/pb.safe))
