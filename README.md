@@ -1,5 +1,15 @@
-- use tabs for indentation (dev accessibility) <sup>[1](https://www.reddit.com/r/javascript/comments/c8drjo/nobody_talks_about_the_real_reason_to_use_tabs/) [2](https://github.com/prettier/prettier/issues/7475/)</sup>
-- typescript: use `type` unless you _need_ `interface` features (e.g. declaration merging) <sup>[1](ttps://www.youtube.com/watch?v=zM9UPcIyyhQ)</sup>
-- typescript: use explicit `function` return types (clear intent, faster tsc, reduced inference) <sup>[1](https://twitter.com/jon_dewitt_ts/status/1620988514317004801?s=20&t=Jj2idhGSt4oBpeYOIQ3-uQ) [2](https://twitter.com/ThePrimeagen/status/1620808334562697217?s=20&t=ZM-gCfYAC2_HQu361Ra2aA)</sup>
-- typescript: avoid `enum` (only supports string/number values; instead, use objects as const, or try [`pb.adt`](https://github.com/peterboyer/pb.adt)) <sup>[1](https://www.youtube.com/watch?v=jjMbPt_H3RQ)</sup>
-- typescript: avoid `throw` (poor control flow; instead, return error objects, or try [`pb.safe`](https://github.com/peterboyer/pb.safe))
+# 💾 Peter Boyer
+
+[![Website](https://img.shields.io/badge/Website-https://peterboyer.me-green?logo=gnubash&logoColor=white)](https://peterboyer.me) [![Repositories - git.peterboyer.me](https://img.shields.io/badge/Repositories-https://git.peterboyer.me-green?logo=git&logoColor=white)](https://git.peterboyer.me) ![GitHub - Discontinued](https://img.shields.io/badge/GitHub-Discontinued-red?logo=github&logoColor=white)
+
+> [!IMPORTANT]
+>
+> In favour of self-hosting, **I am no longer using GitHub to host my repositories**.
+>
+> Remaining repositories serve as discoverable redirection notices and continue as star-gazing counters.
+>
+> **Only [Issues] will remain enabled**; all other features such as Pull Requests and Wikis are disabled.
+>
+> Please visit https://peterboyer.me for my website, and https://git.peterboyer.me/ for my repositories.
+>
+> Thank you! ☺️
